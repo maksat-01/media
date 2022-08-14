@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-block   {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left: 100px;*/
+}
+
+.header-block-icon  {
+    display: flex;
+    padding-bottom: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header-block-icon h1{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 30px;
+}
+.header-block-icon2 img{
+    padding: 10px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-block h1 {
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.hero-block h2{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #EE4248;
+}
+
+.hero-block p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    padding: 30px 0;
+}
+
+.hero-block button{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 161px;
+    height: 53px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border:none;
+}
+
+.work-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-block-icon h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #1F2E35;
+}
+
+.work-block-icon h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #EE4248;
+}
+
+.work-block-icon div{
+    display: flex;
+}
+
+.work-block-icon p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    padding: 30px 0;
+}
+
+.product h1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    color: #1F2E35;
+    padding: 30px;
+}
+
+.product-block h2{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+}
+
+.product-block p{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    margin: 10px 0;
+}
+
+.product-block button{
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    margin: 30px 0;
+    width: 119px;
+    height: 42px;
+    border: none;
+    background: #EE4248;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.product-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.contact{
+    display: flex;
+    /*justify-content: space*/
+    padding-bottom: 100px;
+}
+
+.contact-block h1{
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+
+}
+
+.contact-block p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.contact-block2{
+    margin-left: 50px;
+}
+.contact-block2 h1{
+
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 10px;
+    color: black;
+
+}
+
+.contact-block2 p{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+
+
+
+    color: #263238;
+}
+
+.footer{
+    width: 1540px;
+    height: 44px;
+    background: #EE4248;
+    padding-top: 30px;
+}
+
+.footer-block h3{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
